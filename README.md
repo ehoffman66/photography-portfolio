@@ -1,4 +1,3 @@
-```
 # Photography Portfolio
 
 This is a photography portfolio website built with React, showcasing a collection of portraits, events, and music-related photographs.
@@ -59,5 +58,3 @@ Contributions to the photography portfolio project are welcome! If you find any 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-```
