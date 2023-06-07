@@ -99,4 +99,12 @@
     right: 10px;
   }
   
+  .grid-item {
+    cursor: pointer;
+    transition: filter 0.3s ease;
+  }
+  
+  .grid-item:hover {
+    filter: brightness(107%);
+  }
   
