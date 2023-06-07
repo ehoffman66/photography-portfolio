@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/images/portraits/image1.jpg",
+    "alt": "Portrait 1"
+  },
+  {
+    "path": "/images/portraits/image2.jpg",
+    "alt": "Portrait 2"
+  },
+  {
+    "path": "/images/portraits/image3.jpg",
+    "alt": "Portrait 2"
+  },
+  {
+    "path": "/images/portraits/image4.jpg",
+    "alt": "Portrait 2"
+  },
+  {
+    "path": "/images/portraits/image5.jpg",
+    "alt": "Portrait 2"
+  },
+  {
+    "path": "/images/portraits/image6.jpg",
+    "alt": "Portrait 2"
+  }
+]

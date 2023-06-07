@@ -1,0 +1,12 @@
+const portraitsData = [
+  {
+    path: require('../images/portraits/image1.jpg').default,
+    alt: 'Portrait 1',
+  },
+  {
+    path: require('../images/portraits/image2.jpg').default,
+    alt: 'Portrait 2',
+  },
+];
+
+export default portraitsData;
