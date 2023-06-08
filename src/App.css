@@ -60,7 +60,7 @@
 }
 
 .nav-link {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
   transition: font-size 0.2s;
@@ -68,5 +68,21 @@
 
 .nav-link:hover {
   color: #18d9bb; /* Change to your desired hover color */
-  font-size: 19px; /* Increase the font size on hover */
+  font-size: 28px; /* Increase the font size on hover */
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.contact-form-container input:focus,
+.contact-form-container textarea:focus {
+  outline: none;
+  border-bottom: 1px solid #000;
 }
