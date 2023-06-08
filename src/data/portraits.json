@@ -9,18 +9,26 @@
   },
   {
     "path": "/images/portraits/image3.jpg",
-    "alt": "Portrait 2"
+    "alt": "Portrait 3"
   },
   {
     "path": "/images/portraits/image4.jpg",
-    "alt": "Portrait 2"
+    "alt": "Portrait 4"
   },
   {
     "path": "/images/portraits/image5.jpg",
-    "alt": "Portrait 2"
+    "alt": "Portrait 5"
   },
   {
     "path": "/images/portraits/image6.jpg",
-    "alt": "Portrait 2"
+    "alt": "Portrait 6"
+  },
+  {
+    "path": "/images/portraits/image7.jpg",
+    "alt": "Portrait 7"
+  },
+  {
+    "path": "/images/portraits/image8.jpg",
+    "alt": "Portrait 8"
   }
 ]
