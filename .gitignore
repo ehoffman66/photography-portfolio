@@ -7,6 +7,9 @@
 # Ignore environment files
 .env
 
+# Ignore .DS file
+.DS_Store
+
 # Ignore specific files or directories
 /public/images/
 
