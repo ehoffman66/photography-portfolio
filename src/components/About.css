@@ -1,0 +1,32 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .image-container {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .text-container {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .image-container img {
+    max-width: 80%;
+    height: auto;
+  }
+  
