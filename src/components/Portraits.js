@@ -67,6 +67,9 @@ function Portraits() {
 
   return (
     <div className="gallery-container">
+      <nav className="menu">
+        {/* Add your responsive menu items here */}
+      </nav>
       <h1 className="header-text">PORTRAITS</h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}
