@@ -14,10 +14,10 @@ function Navigation() {
           <div>Erik Hoffman</div>
           <div>Photos</div>
         </div>
-        <div onClick={toggleNav} className={`nav-toggler ${isOpen ? 'open' : ''}`}>
-          <span></span>
-          <span></span>
-          <span></span>
+        <div onClick={toggleNav} className={`nav-toggler ${isOpen ? 'open' : 'closed'}`}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </div>
         <ul className={`nav-menu ${isOpen ? 'nav-open' : ''}`}>
           <li>

@@ -111,6 +111,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  color: #000;
 }
 
 .nav-toggler span {
@@ -120,17 +121,35 @@
   z-index: 1;
 }
 
+.nav-toggler.closed span:nth-child(1),
+.nav-toggler.closed span:nth-child(2),
+.nav-toggler.closed span:nth-child(3) {
+  position: absolute;
+}
+
+.nav-toggler.closed span:nth-child(1) {
+  top: 0;
+}
+
+.nav-toggler.closed span:nth-child(2) {
+  top: 9px;
+}
+
+.nav-toggler.closed span:nth-child(3) {
+  top: 18px;
+}
+
 .nav-toggler.open span:nth-child(1) {
-  transform: rotate(45deg);
+  transform: rotate(45deg) translate(-2px, 7px);
   position: absolute;
 }
 
 .nav-toggler.open span:nth-child(2) {
-  opacity: 1;
+  opacity: 0;
 }
 
 .nav-toggler.open span:nth-child(3) {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) translate(-2px, -7px);
   position: absolute;
 }
 
@@ -147,7 +166,7 @@
   .nav-toggler {
     display: block;
   }
-  
+
   .nav-menu {
     display: none;
   }
@@ -157,9 +176,48 @@
   .nav-toggler {
     display: none;
   }
-  
+
   .nav-menu {
     display: flex;
     flex-direction: column;
   }
+}
+
+/* Hamburger Menu */
+.hamburger-bar {
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  margin-bottom: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-toggler.closed .hamburger-bar:nth-child(1),
+.nav-toggler.closed .hamburger-bar:nth-child(2),
+.nav-toggler.closed .hamburger-bar:nth-child(3) {
+  transform-origin: center;
+}
+
+.nav-toggler.closed .hamburger-bar:nth-child(1) {
+  transform: translateY(0) rotate(0);
+}
+
+.nav-toggler.closed .hamburger-bar:nth-child(2) {
+  transform: translateY(6px) rotate(0);
+}
+
+.nav-toggler.closed .hamburger-bar:nth-child(3) {
+  transform: translateY(12px) rotate(0);
+}
+
+.nav-toggler.open .hamburger-bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.nav-toggler.open .hamburger-bar:nth-child(2) {
+  transform: translateY(6px) rotate(-45deg);
+}
+
+.nav-toggler.open .hamburger-bar:nth-child(3) {
+  transform: translateY(6px) rotate(0);
 }
