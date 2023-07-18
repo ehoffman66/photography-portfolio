@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portraits from './components/Portraits';
-import Events from './components/Events';
+import Places from './components/Places';
 import Music from './components/Music';
 import Navigation from './components/Navigation';
 import './App.css';
@@ -18,7 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portraits" element={<Portraits />} />
-          <Route path="/events" element={<Events />} />
+          <Route path="/places" element={<Places />} />
           <Route path="/music" element={<Music />} />
         </Routes>
       </div>

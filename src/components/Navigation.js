@@ -31,8 +31,8 @@ function Navigation() {
             </Link>
           </li>
           <li>
-            <Link to="/events" className="nav-link" activeClassName="active">
-              Events
+            <Link to="/places" className="nav-link" activeClassName="active">
+              Places
             </Link>
           </li>
           <li>

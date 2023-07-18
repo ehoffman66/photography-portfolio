@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import Masonry from 'react-masonry-css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './Gallery.css';
-import eventsData from '../data/events.json';
+import placesData from '../data/places.json';
 
-function Events() {
+function Places() {
   const navigate = useNavigate();
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
@@ -28,8 +28,8 @@ function Events() {
   }, [selectedImageIndex, imagePaths]);
 
   useEffect(() => {
-    navigate('/events');
-    setImagePaths(eventsData);
+    navigate('/places');
+    setImagePaths(placesData);
   }, [navigate]);
 
   useEffect(() => {
@@ -67,7 +67,7 @@ function Events() {
 
   return (
     <div className="gallery-container">
-      <h1 className="header-text">EVENTS</h1>
+      <h1 className="header-text">PLACES</h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"
@@ -87,7 +87,7 @@ function Events() {
         <div className="overlay" onClick={handleClose}>
           <div className="modal">
             <span className="close" onClick={handleClose}><i className="fas fa-times"></i></span>
-            <img src={selectedImage} alt="Events" />
+            <img src={selectedImage} alt="Places" />
             {selectedImageIndex > 0 && (
               <button className="prev" onClick={handlePrev}>
                 <i className="fas fa-chevron-left"></i>
@@ -105,4 +105,4 @@ function Events() {
   );
 }
 
-export default Events;
+export default Places;
