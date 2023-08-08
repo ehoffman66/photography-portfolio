@@ -37,6 +37,34 @@
   },
   {
     "path": "/images/portraits/image10.jpg",
+    "alt": "Portrait 9"
+  },
+  {
+    "path": "/images/portraits/image11.jpg",
+    "alt": "Portrait 10"
+  },
+  {
+    "path": "/images/portraits/image12.jpg",
+    "alt": "Portrait 11"
+  },
+  {
+    "path": "/images/portraits/image13.jpg",
+    "alt": "Portrait 12"
+  },
+  {
+    "path": "/images/portraits/image14.jpg",
+    "alt": "Portrait 13"
+  },
+  {
+    "path": "/images/portraits/image15.jpg",
+    "alt": "Portrait 14"
+  },
+  {
+    "path": "/images/portraits/image16.jpg",
+    "alt": "Portrait 15"
+  },
+  {
+    "path": "/images/portraits/image17.jpg",
     "alt": "Portrait 8"
   }
 ]
