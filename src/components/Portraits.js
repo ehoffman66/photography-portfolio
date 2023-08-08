@@ -77,7 +77,7 @@ function Portraits() {
         <nav className="menu">
           {/* Add your responsive menu items here */}
         </nav>
-        <h1 className="header-text">PORTRAITS</h1>
+        <h1 className="header-text">PEOPLE</h1>
         <Masonry
           breakpointCols={breakpointColumnsObj}
           className="my-masonry-grid"

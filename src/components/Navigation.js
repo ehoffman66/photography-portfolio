@@ -27,7 +27,7 @@ function Navigation() {
           </li>
           <li>
             <Link to="/portraits" className="nav-link" activeClassName="active">
-              Portraits
+              PEOPLE
             </Link>
           </li>
           <li>
