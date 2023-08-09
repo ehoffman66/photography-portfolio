@@ -31,11 +31,6 @@ function Navigation() {
             </Link>
           </li>
           <li>
-            <Link to="/places" className="nav-link" activeClassName="active">
-              Places
-            </Link>
-          </li>
-          <li>
             <Link to="/music" className="nav-link" activeClassName="active">
               Music
             </Link>
