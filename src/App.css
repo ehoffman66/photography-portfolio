@@ -221,3 +221,17 @@
 .nav-toggler.open .hamburger-bar:nth-child(3) {
   transform: translateY(6px) rotate(0);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.site-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-photos {
+  color: #18d9bb;
+}
+
+.nav-link.active {
+  color: #18d9bb;
+}
