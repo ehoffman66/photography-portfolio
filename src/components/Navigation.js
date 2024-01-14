@@ -35,6 +35,18 @@ function Navigation() {
                         Music
                     </Link>
                 </li>
+                <li className="relative group">
+                    <span className="nav-link">
+                        Travel
+                    </span>
+                    <ul className="pl-6">
+                        <li>
+                            <Link to="/africa" className="nav-link" activeClassName="active">
+                                Africa
+                            </Link>
+                        </li>
+                    </ul>
+                </li>
                 <li>
                     <Link to="/contact" className="nav-link" activeClassName="active">
                         Contact
