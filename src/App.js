@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Portraits from './components/Portraits';
 import Places from './components/Places';
 import Music from './components/Music';
+import Africa from './components/Africa';
 import Navigation from './components/Navigation';
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/portraits" element={<Portraits />} />
           <Route path="/places" element={<Places />} />
           <Route path="/music" element={<Music />} />
+          <Route path="/africa" element={<Africa />} />
         </Routes>
       </div>
     </Router>
