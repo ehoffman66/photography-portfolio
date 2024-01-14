@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'; // Import NavLink instead of Link
 
 function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,19 +21,19 @@ function Navigation() {
             </div>
             <ul className={`nav-menu ${isOpen ? 'nav-open' : ''}`}>
                 <li>
-                    <Link to="/about" className="nav-link" activeClassName="active">
+                    <NavLink to="/about" className="nav-link" activeClassName="active">
                         About
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/portraits" className="nav-link" activeClassName="active">
+                    <NavLink to="/portraits" className="nav-link" activeClassName="active">
                         PEOPLE
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/music" className="nav-link" activeClassName="active">
+                    <NavLink to="/music" className="nav-link" activeClassName="active">
                         Music
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className="relative group">
                     <span className="nav-link">
@@ -41,16 +41,16 @@ function Navigation() {
                     </span>
                     <ul className="pl-6">
                         <li>
-                            <Link to="/africa" className="nav-link" activeClassName="active">
+                            <NavLink to="/africa" className="nav-link" activeClassName="active">
                                 Africa
-                            </Link>
+                            </NavLink>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <Link to="/contact" className="nav-link" activeClassName="active">
+                    <NavLink to="/contact" className="nav-link" activeClassName="active">
                         Contact
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
         </nav>
