@@ -1,26 +1,26 @@
 [
   {
     "path": "/images/events/image1.jpg",
-    "alt": "Portrait 1"
+    "alt": "Places 1"
   },
   {
     "path": "/images/events/image2.jpg",
-    "alt": "Portrait 2"
+    "alt": "Places 2"
   },
   {
     "path": "/images/events/image3.jpg",
-    "alt": "Portrait 2"
+    "alt": "Places 3"
   },
   {
     "path": "/images/events/image4.jpg",
-    "alt": "Portrait 2"
+    "alt": "Places 4"
   },
   {
     "path": "/images/evnets/image5.jpg",
-    "alt": "Portrait 2"
+    "alt": "Places 5"
   },
   {
     "path": "/images/events/image6.jpg",
-    "alt": "Portrait 2"
+    "alt": "Places 6"
   }
 ]
