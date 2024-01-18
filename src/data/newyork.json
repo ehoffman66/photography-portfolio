@@ -1,0 +1,27 @@
+[
+    {
+      "path": "/images/newyork/image1.jpg",
+      "alt": "new york 1"
+    },
+    {
+      "path": "/images/newyork/image2.jpg",
+      "alt": "new york 2"
+    },
+    {
+      "path": "/images/newyork/image3.jpg",
+      "alt": "new york 3"
+    },
+    {
+      "path": "/images/newyork/image4.jpg",
+      "alt": "new york 4"
+    },
+    {
+      "path": "/images/newyork/image5.jpg",
+      "alt": "new york 5"
+    },
+    {
+      "path": "/images/newyork/image6.jpg",
+      "alt": "new york 6"
+    }
+  ]
+  
